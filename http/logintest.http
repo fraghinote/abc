@@ -1,0 +1,82 @@
+# curl 'http://localhost:8080/api/testabc.jsp?aaa=bbb&email=vega@cycu.edu.tw'
+GET http://localhost:8080/api/testabc.jsp?aaa=bbb&email=vega@cycu.edu.tw
+
+###
+POST http://localhost:8080/api/testabc.jsp?aaa=bbb&email=vega1@cycu.edu.tw
+###
+POST http://localhost:8080/api/testabc.jsp
+
+aaa=bbb&email=vega2@cycu.edu.tw
+###
+
+# curl 'http://localhost:8080/api/testabc.jsp'  -F aaa=bbb&email=vega@cycu.edu.tw
+POST http://localhost:8080/api/testabc.jsp
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="aaa"
+
+bbb&email=vega@cycu.edu.tw
+--WebAppBoundary--
+
+###
+
+
+# curl 'http://localhost:8080/api/testabc.jsp'
+# -F aaa=bbb
+# -F email=vega@cycu.edu.tw
+POST http://localhost:8080/api/test.jsp
+
+{ "condition": "140.135.5.37",
+ "name":"e11"
+,"age": "23"}
+
+--WebAppBoundary
+Content-Disposition: form-data; name="aaa"
+
+bbb
+--WebAppBoundary
+Content-Disposition: form-data; name="email"
+
+vega@cycu.edu.tw
+--WebAppBoundary--
+
+###
+
+GET http://localhost:9000/spa/node_modules/quasar/src/icon-set.js?v=3c0db4fa
+Accept: */*
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: JSESSIONID=AAA438D0F621BEEF341265B63A8E12E2
+Origin: http://localhost:9000
+Pragma: no-cache
+Referer: http://localhost:9000/spa/node_modules/quasar/src/vue-plugin.js?v=3c0db4fa
+Sec-Fetch-Dest: script
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+sec-ch-ua: "Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+
+###
+
+GET http://localhost:9000/api/ustest.jsp
+
+{ "ID" : "1"}
+###
+
+###
+
+GET http://localhost:9000/api/addAdd.jsp?addConsumptions
+
+{
+ "CONSUMER_ID" : "2" ,
+ "PRODUCT_ID" : "2"
+}
+###
+
+
+
+
