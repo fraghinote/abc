@@ -19,7 +19,7 @@ npm install
 
 
 ### Backstage
-* Access management
+* Permission management
 * Members management
 * Order management
 
