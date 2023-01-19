@@ -1,5 +1,5 @@
 # Quasar Shopping Website
-This project use JavaScript, JAVA and Vue.js write, through Oracle Database implement backstage online shopping website.
+This project use JavaScript, JAVA and Vue.js write, by Oracle Database implement backstage online shopping website.
 
 ## Install the dependencies
 ```bash
