@@ -1,5 +1,4 @@
-# Quasar App (abcd)
-
+# Quasar Shopping Website
 A Quasar Project
 
 ## Install the dependencies
