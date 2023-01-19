@@ -13,6 +13,7 @@ npm install
 * Member System
     * Member information 
 * Shopping cart
+    * Order details 
     * Sent package information
 
 
