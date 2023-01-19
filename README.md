@@ -9,9 +9,12 @@ npm install
 ```
 
 ### Implement function list
-```bash
 * Log in/out
-```
+* Member System
+    * Member information 
+* Shopping cart
+    * Shipping information 
+
 
 
 ### Build the app for production
